@@ -1,0 +1,46 @@
+:root{
+    --color-purple: #6E6BBF;
+    --color-green: #d3212a;
+    --color-pink: #EACAF3;
+    --color-blue: #0442BF;
+}
+
+*{
+    text-decoration: none;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  header {
+    background-color: var(--color-pink);
+    text-align: center;
+    padding: 20px;
+    height: 100vh; /* header ocupará 100% da altura da janela do navegador */
+    box-sizing: border-box; /* padding não aumenta o tamanho total do header */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  h1 {
+    font-size: 4em;
+    margin-bottom: 10px;
+    color: var(--color-green);
+  }
+  
+  h2 {
+    font-size: 3em;
+    margin-top: 0;
+    color: var(--color-purple);
+    margin-bottom: 0;
+  }
+
+  h3 {
+    font-size: 1.5em;
+    margin-top: 0;
+    color: var(--color-blue);
+    margin-top: .5em;
+}
